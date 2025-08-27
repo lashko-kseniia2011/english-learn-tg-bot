@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>519799bd-4ee5-4846-8568-3c5c0791ecd2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lear_tg_bot.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="lear_tg_bot.py" />
+    <Compile Include="handlers\add_command.py" />
+    <Compile Include="handlers\start_command.py" />
+    <Compile Include="main.py" />
+    <Compile Include="models\database.py" />
+    <Compile Include="models\user.py" />
+    <Compile Include="models\word.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
@@ -46,6 +51,10 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="handlers\" />
+    <Folder Include="models\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
