@@ -14,10 +14,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(update.message.text)
     await update.message.reply_text(f"you write {update.message.text}")
 
-database = None
-
 def main():
-    database = Database()
     app=Application.builder().token(token).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("add_en", add_en))

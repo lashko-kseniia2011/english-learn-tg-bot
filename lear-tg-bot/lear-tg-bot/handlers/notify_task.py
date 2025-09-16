@@ -7,7 +7,7 @@ import random
 
 
 async def notify_users_task(application: Application):
-    database = Database()
+    database = Database.load()
     while True:
         now = datetime.now()
         for notify in database.notifies:
@@ -24,6 +24,7 @@ async def notify_users_task(application: Application):
                     )
                     user = list(filter(lambda user: user.id == notify.user_id, database.users))[0]
                     user.wait_word = random_word.english_word
+                    database.save()
                 except Exception as e:
                     print(f"❌ Не вдалося надіслати повідомлення {notify.user_id}: {e}")
         await asyncio.sleep(5)

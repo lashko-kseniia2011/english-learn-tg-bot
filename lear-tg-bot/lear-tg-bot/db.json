@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "id": 6146162699,
+            "first_name": "𝓚𝓼𝓮𝓷𝓲𝓲𝓪",
+            "last_name": null,
+            "username": "lksuwql",
+            "wait_word": null
+        }
+    ],
+    "words": [
+        {
+            "english_word": "dog",
+            "ukraine_word": "собака",
+            "user_id": 6146162699
+        }
+    ],
+    "notifies": [
+        {
+            "notify_time": "16:59:00",
+            "user_id": 6146162699
+        }
+    ]
+}
