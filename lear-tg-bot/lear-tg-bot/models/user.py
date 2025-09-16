@@ -3,6 +3,7 @@ class User:
     first_name: str
     last_name: str
     username: str
+    wait_word: str = None
     
     def __init__ (self,  id: int, first_name: str, last_name: str, username: str):
         self.id = id

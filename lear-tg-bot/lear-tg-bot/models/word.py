@@ -10,5 +10,8 @@ class Word:
         self.english_word = english_word
         self.ukraine_word = ukraine_word
         self.user_id = user_id
+
+    def __repr__(self):
+        return f"eng - {self.english_word}, ua - {self.ukraine_word}, user_id - {self.user_id}"
         
     
