@@ -5,7 +5,8 @@
             "first_name": "𝓚𝓼𝓮𝓷𝓲𝓲𝓪",
             "last_name": null,
             "username": "lksuwql",
-            "wait_word": null
+            "wait_word": "dog",
+            "word_count": 0
         }
     ],
     "words": [
@@ -18,6 +19,26 @@
     "notifies": [
         {
             "notify_time": "16:59:00",
+            "user_id": 6146162699
+        },
+        {
+            "notify_time": "10:18:00",
+            "user_id": 6146162699
+        },
+        {
+            "notify_time": "10:23:00",
+            "user_id": 6146162699
+        },
+        {
+            "notify_time": "10:24:00",
+            "user_id": 6146162699
+        },
+        {
+            "notify_time": "10:27:00",
+            "user_id": 6146162699
+        },
+        {
+            "notify_time": "10:47:00",
             "user_id": 6146162699
         }
     ]

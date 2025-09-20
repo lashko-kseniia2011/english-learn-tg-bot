@@ -9,3 +9,4 @@ class User(BaseModel):
     last_name: Optional[str]
     username: Optional[str]
     wait_word: Optional[str] = None
+    word_count: int = 0

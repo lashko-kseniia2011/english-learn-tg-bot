@@ -1,18 +1,13 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 from handlers.add_command import add_en, add_ua
+from handlers.echo_command import echo
 from handlers.notify_task import notify_users_task
 from handlers.start_command import start
 from handlers.notify_command import add_notify
 import asyncio
 
-from models.database import Database
-
 token="8312407763:AAERNh2KzR69c2SWrbUZ47JBJwBVnSuR4m8"
- 
-async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    print(update.message.text)
-    await update.message.reply_text(f"you write {update.message.text}")
 
 def main():
     app=Application.builder().token(token).build()
