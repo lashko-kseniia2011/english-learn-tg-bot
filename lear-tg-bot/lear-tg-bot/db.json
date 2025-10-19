@@ -1,45 +1,723 @@
 {
     "users": [
         {
-            "id": 6146162699,
-            "first_name": "𝓚𝓼𝓮𝓷𝓲𝓲𝓪",
-            "last_name": null,
-            "username": "lksuwql",
-            "wait_word": "dog",
-            "word_count": 0
+            "id": 273665698,
+            "first_name": "Михайло",
+            "last_name": "Харченко",
+            "username": "kharchenkoMichael",
+            "direction": "en_ua",
+            "wait_word": null,
+            "word_count": 0,
+            "hp": 10,
+            "points": 130
         }
     ],
     "words": [
         {
+            "english_word": "computer",
+            "ukrainian_word": "комп'ютер",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:15.804272"
+        },
+        {
+            "english_word": "monitor",
+            "ukrainian_word": "монітор",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:03.739718"
+        },
+        {
+            "english_word": "keyboard",
+            "ukrainian_word": "клавіатура",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:03:07.520447"
+        },
+        {
+            "english_word": "artificial intelligence",
+            "ukrainian_word": "штучний інтелект",
+            "user_id": 273665698,
+            "score": 2,
+            "last_seen": "2025-10-20 00:03:01.477577"
+        },
+        {
+            "english_word": "handle",
+            "ukrainian_word": "ручка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:03.083488"
+        },
+        {
+            "english_word": "headphone",
+            "ukrainian_word": "навушники",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:32.384993"
+        },
+        {
             "english_word": "dog",
-            "ukraine_word": "собака",
-            "user_id": 6146162699
+            "ukrainian_word": "собака",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:00:55.966648"
+        },
+        {
+            "english_word": "cat",
+            "ukrainian_word": "кішка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:14.781045"
+        },
+        {
+            "english_word": "ruler",
+            "ukrainian_word": "лінійка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:16.719678"
+        },
+        {
+            "english_word": "cup",
+            "ukrainian_word": "чашка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:00:58.011682"
+        },
+        {
+            "english_word": "spoon",
+            "ukrainian_word": "ложка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:17.690313"
+        },
+        {
+            "english_word": "fork",
+            "ukrainian_word": "виделка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:01.912207"
+        },
+        {
+            "english_word": "notebook",
+            "ukrainian_word": "зошит",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:01:18.761568"
+        },
+        {
+            "english_word": "window",
+            "ukrainian_word": "вікно",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "clock",
+            "ukrainian_word": "годинник",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "pen",
+            "ukrainian_word": "перо",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:25:11.412369"
+        },
+        {
+            "english_word": "chair",
+            "ukrainian_word": "стілець",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:26:15.972337"
+        },
+        {
+            "english_word": "tree",
+            "ukrainian_word": "дерево",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:25:19.405554"
+        },
+        {
+            "english_word": "house",
+            "ukrainian_word": "будинок",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:26:24.747301"
+        },
+        {
+            "english_word": "mouth",
+            "ukrainian_word": "рот",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "door",
+            "ukrainian_word": "двері",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "star",
+            "ukrainian_word": "зірка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "pencil",
+            "ukrainian_word": "олівець",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "water",
+            "ukrainian_word": "води",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "paper",
+            "ukrainian_word": "папір",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "apple",
+            "ukrainian_word": "яблуко",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:24:50.246012"
+        },
+        {
+            "english_word": "foot",
+            "ukrainian_word": "стопа",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "arm",
+            "ukrainian_word": "рука",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "moon",
+            "ukrainian_word": "місяць",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "paint",
+            "ukrainian_word": "фарба",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "juice",
+            "ukrainian_word": "сік",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "eye",
+            "ukrainian_word": "око",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "hair",
+            "ukrainian_word": "волосся",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:25:22.349398"
+        },
+        {
+            "english_word": "plant",
+            "ukrainian_word": "завод",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:24:40.650355"
+        },
+        {
+            "english_word": "shirt",
+            "ukrainian_word": "сорочка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:47:13.977918"
+        },
+        {
+            "english_word": "bracelet",
+            "ukrainian_word": "браслет",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "comb",
+            "ukrainian_word": "гребінець",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "flower",
+            "ukrainian_word": "квітка",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:26:02.823689"
+        },
+        {
+            "english_word": "desk",
+            "ukrainian_word": "письмовий стіл",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "shoes",
+            "ukrainian_word": "взуття",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "towel",
+            "ukrainian_word": "рушник",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "bag",
+            "ukrainian_word": "сумка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "hand",
+            "ukrainian_word": "руку",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:24:19.246172"
+        },
+        {
+            "english_word": "sun",
+            "ukrainian_word": "сонце",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:26:12.390300"
+        },
+        {
+            "english_word": "watch",
+            "ukrainian_word": "годинник",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:25:06.247575"
+        },
+        {
+            "english_word": "wallet",
+            "ukrainian_word": "гаманець",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:24:36.843642"
+        },
+        {
+            "english_word": "book",
+            "ukrainian_word": "книга",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "lamp",
+            "ukrainian_word": "лампа",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:25:01.592094"
+        },
+        {
+            "english_word": "glasses",
+            "ukrainian_word": "окуляри",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "mirror",
+            "ukrainian_word": "дзеркало",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "car",
+            "ukrainian_word": "автомобіль",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:26:06.710153"
+        },
+        {
+            "english_word": "bed",
+            "ukrainian_word": "ліжко",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "coin",
+            "ukrainian_word": "монета",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "necklace",
+            "ukrainian_word": "намисто",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "ball",
+            "ukrainian_word": "м'яч",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:24:45.728289"
+        },
+        {
+            "english_word": "brush",
+            "ukrainian_word": "пензлик",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "ring",
+            "ukrainian_word": "кільце",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:47:08.249002"
+        },
+        {
+            "english_word": "leg",
+            "ukrainian_word": "нога",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "milk",
+            "ukrainian_word": "молоко",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "face",
+            "ukrainian_word": "обличчя",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "toothpaste",
+            "ukrainian_word": "зубна паста",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "table",
+            "ukrainian_word": "стіл",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:02:54.070692"
+        },
+        {
+            "english_word": "word",
+            "ukrainian_word": "слово",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:03:03.912240"
+        },
+        {
+            "english_word": "bread",
+            "ukrainian_word": "хліб",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "horse",
+            "ukrainian_word": "кінь",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "map",
+            "ukrainian_word": "карта",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "umbrella",
+            "ukrainian_word": "парасолька",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "whale",
+            "ukrainian_word": "кит",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "frog",
+            "ukrainian_word": "жаба",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "zoo",
+            "ukrainian_word": "зоопарк",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "bird",
+            "ukrainian_word": "птах",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "lion",
+            "ukrainian_word": "лев",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "train",
+            "ukrainian_word": "поїзд",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "cupcake",
+            "ukrainian_word": "кекс",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": "2025-10-20 00:46:58.163913"
+        },
+        {
+            "english_word": "worm",
+            "ukrainian_word": "хробак",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "tiger",
+            "ukrainian_word": "тигр",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:47:02.909919"
+        },
+        {
+            "english_word": "wolf",
+            "ukrainian_word": "вовк",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "cookie",
+            "ukrainian_word": "печиво",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "baby",
+            "ukrainian_word": "дитина",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "violin",
+            "ukrainian_word": "скрипка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "egg",
+            "ukrainian_word": "яйце",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "kite",
+            "ukrainian_word": "повітряний змій",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "hat",
+            "ukrainian_word": "капелюх",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "ice",
+            "ukrainian_word": "лід",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "pig",
+            "ukrainian_word": "свиня",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "rabbit",
+            "ukrainian_word": "кролик",
+            "user_id": 273665698,
+            "score": 1,
+            "last_seen": "2025-10-20 00:46:52.199309"
+        },
+        {
+            "english_word": "bus",
+            "ukrainian_word": "автобус",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "chicken",
+            "ukrainian_word": "курка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "rock",
+            "ukrainian_word": "рок",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "fish",
+            "ukrainian_word": "риба",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "cheese",
+            "ukrainian_word": "сир",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "duck",
+            "ukrainian_word": "качка",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "cake",
+            "ukrainian_word": "торт",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "yogurt",
+            "ukrainian_word": "йогурт",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "snake",
+            "ukrainian_word": "змія",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "key",
+            "ukrainian_word": "ключ",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "pie",
+            "ukrainian_word": "пиріг",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "sheep",
+            "ukrainian_word": "овець",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "ice cream",
+            "ukrainian_word": "морозиво",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
+        },
+        {
+            "english_word": "guitar",
+            "ukrainian_word": "гітара",
+            "user_id": 273665698,
+            "score": 0,
+            "last_seen": null
         }
     ],
     "notifies": [
         {
-            "notify_time": "16:59:00",
-            "user_id": 6146162699
-        },
-        {
-            "notify_time": "10:18:00",
-            "user_id": 6146162699
-        },
-        {
-            "notify_time": "10:23:00",
-            "user_id": 6146162699
-        },
-        {
-            "notify_time": "10:24:00",
-            "user_id": 6146162699
-        },
-        {
-            "notify_time": "10:27:00",
-            "user_id": 6146162699
-        },
-        {
-            "notify_time": "10:47:00",
-            "user_id": 6146162699
+            "notify_time": "09:30:00",
+            "user_id": 273665698
         }
     ]
 }

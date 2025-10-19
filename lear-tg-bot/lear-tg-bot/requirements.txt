@@ -1,4 +1,7 @@
+googletrans
 pip==23.2.1
 setuptools==65.5.0
 python-telegram-bot
 pydantic
+openai
+python-dotenv

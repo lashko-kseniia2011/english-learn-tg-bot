@@ -4,18 +4,21 @@ from datetime import datetime
 
 from models.database import Database
 from models.notify import Notify
+from services.keyboards import settings_keyboard
+
 
 async def add_notify(update: Update, context: ContextTypes.DEFAULT_TYPE):
     database = Database.load()
-    if len(context.args) == 1:
-        time_str = context.args[0]
-    else:
-        await update.message.reply_text(f"Не правильний формат")
+    time_str = update.message.text.strip()  # беремо текст повідомлення
+
+    try:
+        time_obj = datetime.strptime(time_str, "%H:%M:%S").time()
+    except ValueError:
+        await update.message.reply_text("❌ Неправильний формат. Використовуйте HH:MM:SS")
         return
 
-    time_obj = datetime.strptime(time_str, "%H:%M:%S").time()
     new_notify = Notify(notify_time=time_obj, user_id=update.effective_user.id)
-    print(f"додали новий нагадувальник на {time_str}")
     database.notifies.append(new_notify)
     database.save()
-    await update.message.reply_text(f"Нагадування {time_str} успішно додано")
+
+    await update.message.reply_text(f"✅ Нагадування на {time_str} успішно додано", reply_markup=settings_keyboard())
