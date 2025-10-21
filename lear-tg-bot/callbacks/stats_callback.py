@@ -35,7 +35,6 @@ async def stats_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.callback_query.message.reply_text(
         stats_text,
-        parse_mode="HTML",
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("⬅️ Головне меню", callback_data="main_menu")]
         ])

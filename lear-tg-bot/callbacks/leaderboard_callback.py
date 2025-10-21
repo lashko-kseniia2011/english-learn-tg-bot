@@ -26,7 +26,6 @@ async def leaderboard_callback(update: Update, context: ContextTypes.DEFAULT_TYP
 
     await update.callback_query.message.reply_text(
         leaderboard_text,
-        parse_mode="HTML",
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("⬅️ Головне меню", callback_data="main_menu")]
         ])
